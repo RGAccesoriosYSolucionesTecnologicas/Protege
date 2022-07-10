@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-image: url('img/logoProtege.png');
+    background: black;
 }
 
 .container {
