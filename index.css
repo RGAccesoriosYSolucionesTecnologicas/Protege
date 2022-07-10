@@ -6,9 +6,9 @@
 }
 
 body {
-    background: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     color: white;
+    background-image: url('img/logoProtege.png');
 }
 
 .container {
@@ -165,6 +165,6 @@ footer {
     }
     footer {
         text-align: center;
-        margin-top: 4pc;
+        bottom: 0;
     }
 }
