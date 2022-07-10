@@ -6,17 +6,18 @@
 }
 
 body {
-    background: rgb(26, 26, 26);
+    background: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 
 .container {
-    border: 2px solid red;
+    min-height: 700px;
 }
 
 .container .title {
-    text-align: center;
+    display: flex;
+    margin: 5vh auto
 }
 
 .container .kotak .ytb-logo {
@@ -54,24 +55,14 @@ a {
     font-size: 2.5rem;
 }
 
-.container .title p {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    margin-top: -20px;
-    font-size: 0.8rem;
-    letter-spacing: 4px;
-}
-
 .container .link {
-    margin-top: 3.5pc;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .container .link .a {
-    /* border: 2px solid red; */
-    width: 40pc;
-    margin: auto;
-    /* margin-top: 2pc; */
+    margin: 0 auto;
+    text-align: center;
 }
 
 .container .kotak {
