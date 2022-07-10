@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 * {
-    width: 100%;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     background: rgb(26, 26, 26);
     font-family: 'Poppins', sans-serif;
-    /* height: 110vh; */
-    overflow-x: hidden;
     color: white;
 }
 
-img {
-    width: 80%;
-    float: left;
+.container {
+    border: 2px solid red;
+}
+
+.container .title {
+    text-align: center;
 }
 
 .container .kotak .ytb-logo {
@@ -40,11 +42,9 @@ a {
     position: absolute;
 }
 
-.container .title {
-    width: 15pc;
-    height: 7pc;
+.container .title img {
     margin: auto;
-    overflow: hidden;
+    width: 100px
 }
 
 .container .title h1 {
