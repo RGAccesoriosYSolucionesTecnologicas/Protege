@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
-    background: url('img/6240268.jpg') no-repeat center center fixed;
+    background: url('img/6240268.jpg') repeat
 }
 
 .container {
@@ -157,10 +157,10 @@ footer {
         width: 100vw;
     }
     .container .kotak {
-        width: 20pc;
+        width: 25pc;
     }
     .container .kotak .tautan {
-        width: 10pc;
+        width: 15pc;
         margin-left: 9pc;
     }
     footer {
