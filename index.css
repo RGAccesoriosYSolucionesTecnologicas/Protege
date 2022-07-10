@@ -13,17 +13,13 @@ body {
 
 .container {
     min-height: 700px;
+    display: grid;
+    text-align: center;
 }
 
 .container .title {
-    display: flex;
-    margin: 5vh auto
-}
-
-.container .kotak .ytb-logo {
-    width: 250%;
-    margin-left: -3pc;
-    margin-top: -1.5pc;
+    margin: auto;
+    text-align: center;
 }
 
 .container .kotak .discord-logo {
@@ -157,9 +153,7 @@ footer {
     img {
         width: 60%;
     }
-    .container .link .a {
-        margin-left: -8pc;
-    }
+    .container .link .a {}
     .container .kotak {
         width: 20pc;
         height: 3pc;
@@ -168,22 +162,6 @@ footer {
         width: 10pc;
         height: 4pc;
         margin-left: 9pc;
-        margin-top: -4.5pc;
-    }
-    .container .kotak .tautan .ytb {
-        margin-top: 1pc;
-        margin-left: -4pc;
-    }
-    .container .kotak .tautan .dc {
-        margin-left: -3.7pc;
-    }
-    .container .kotak .ytb-logo {
-        width: 180%;
-        margin-left: -2pc;
-    }
-    .container .kotak .discord-logo {
-        width: 120%;
-        margin-top: -10px;
     }
     footer {
         text-align: center;
