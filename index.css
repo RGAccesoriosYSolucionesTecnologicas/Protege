@@ -1,132 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background: url('img/6240268.jpg') repeat
-}
-
-.container {
-    min-height: 100vh;
-    display: grid;
-    text-align: center;
-}
-
-.container .title {
-    margin: auto;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.container .title img {
-    margin: auto;
-    width: 100px
-}
-
-.container .title h1 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-}
-
-.container .link {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.container .link .a {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.container .kotak {
-    border: 2px solid rgb(24, 24, 24);
-    background: rgb(24, 24, 24);
-    width: 40pc;
-    margin: 0 auto;
-    margin-top: 2pc;
-    box-shadow: 5px 5px rgb(46, 46, 46);
-    transition: 0.5s;
-}
-
-.container .kotak:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background: rgb(255, 255, 255);
-    box-shadow: 10px 10px rgb(87, 87, 87);
-    color: black;
-}
-
-.container .kotak .img {
-    width: 60px;
-    height: 60px;
-    transition: 0.3s;
-}
-
-.container .kotak .img:hover {
-    transform: rotate(40deg);
-    transition: 0.5s;
-}
-
-.container .kotak .tautan {
-    text-align: center;
-    font-size: 1rem;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    transition: 0.5s;
-}
-
-.container .kotak .tautan p {}
-
-.container .kotak .tautan:hover {
-    letter-spacing: 20px;
-}
-
-.container .link .a .kotak .tautan .ig:hover {
-    color: red;
-    margin: auto 0;
-}
-
-.container .link .a .kotak .tautan .sama:hover {
-    color: rgb(0, 99, 228);
-}
-
-.container .link .a .kotak .tautan .wa:hover {
-    color: green;
-    margin: 0 auto;
-}
-
-.container .link .a .kotak .tautan .ytb:hover {}
-
-.container .link .a .kotak .tautan .dc:hover {
-    color: rgb(0, 204, 255);
-}
-
-@media only screen and (max-width:600px) {
-    img {
-        width: 10vw;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        background: url('img/6240268.jpg') repeat
+    }
+    
+    .container {
+        min-height: 100vh;
+        display: grid;
+        text-align: center;
+    }
+    
+    .container .title {
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-column: repeat(1fr)
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .container .title img {
+        margin: auto;
+        width: 100px
+    }
+    
+    .container .title h1 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+    }
+    
+    .container .link {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
     .container .link .a {
-        width: 100vw;
+        margin: 0 auto;
+        text-align: center;
     }
+    
     .container .kotak {
-        width: 80vw;
+        border: 2px solid rgb(24, 24, 24);
+        background: rgb(24, 24, 24);
+        width: 40pc;
+        margin: 0 auto;
+        margin-top: 2pc;
+        box-shadow: 5px 5px rgb(46, 46, 46);
+        transition: 0.5s;
+        display: grid;
+        grid-column: ;
     }
+    
+    .container .kotak:hover {
+        border: 2px solid rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+        box-shadow: 10px 10px rgb(87, 87, 87);
+        color: black;
+    }
+    
+    .container .kotak .img {
+        transition: 0.3s;
+        float: left;
+    }
+    
+    .container .kotak .img:hover {
+        transform: rotate(40deg);
+        transition: 0.5s;
+    }
+    
     .container .kotak .tautan {
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        transition: 0.5s;
+        display: inline-block;
+    }
+    
+    .container .kotak .tautan p {}
+    
+    .container .kotak .tautan:hover {
+        letter-spacing: 20px;
+    }
+    
+    .container .link .a .kotak .tautan .ig:hover {
+        color: red;
+        margin: auto 0;
+    }
+    
+    .container .link .a .kotak .tautan .sama:hover {
+        color: rgb(0, 99, 228);
+    }
+    
+    .container .link .a .kotak .tautan .wa:hover {
+        color: green;
         margin: 0 auto;
     }
-    footer {
-        text-align: center;
-        bottom: 0;
+    
+    .container .link .a .kotak .tautan .ytb:hover {}
+    
+    @media only screen and (max-width:600px) {
+        img {
+            width: 10vw;
+        }
+        .container .link .a {
+            width: 100vw;
+        }
+        .container .kotak {
+            width: 80vw;
+        }
+        .container .kotak .tautan {
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            bottom: 0;
+        }
     }
-}
