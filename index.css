@@ -12,7 +12,7 @@
     }
     
     .container {
-        min-height: 100vh;
+        min-height: 80vh;
         display: grid;
         text-align: center;
     }
@@ -26,11 +26,6 @@
     a {
         text-decoration: none;
         color: white;
-    }
-    
-    .container .title img {
-        width: 30vw;
-        float: left;
     }
     
     .container .title h1 {
