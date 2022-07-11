@@ -22,21 +22,9 @@ body {
     text-align: center;
 }
 
-.container .kotak .discord-logo {
-    width: 170%;
-    margin-left: -1.3pc;
-    margin-top: -1pc;
-}
-
 a {
     text-decoration: none;
     color: white;
-}
-
-.container button {
-    width: 5pc;
-    margin-top: 5pc;
-    position: absolute;
 }
 
 .container .title img {
@@ -65,8 +53,7 @@ a {
     border: 2px solid rgb(24, 24, 24);
     background: rgb(24, 24, 24);
     width: 40pc;
-    height: 4pc;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 2pc;
     box-shadow: 5px 5px rgb(46, 46, 46);
     transition: 0.5s;
@@ -82,13 +69,12 @@ a {
 .container .kotak .img {
     width: 60px;
     height: 60px;
-    margin-top: 0.5pc;
-    margin-left: 0.5pc;
     transition: 0.3s;
 }
 
 .container .kotak .img:hover {
-    transform: rotate(30deg);
+    transform: rotate(40deg);
+    transition: 0.5s;
 }
 
 .container .kotak .tautan {
@@ -108,6 +94,7 @@ a {
 
 .container .link .a .kotak .tautan .ig:hover {
     color: red;
+    margin: auto 0;
 }
 
 .container .link .a .kotak .tautan .sama:hover {
@@ -116,13 +103,10 @@ a {
 
 .container .link .a .kotak .tautan .wa:hover {
     color: green;
+    margin: 0 auto;
 }
 
-.container .link .a .kotak .tautan .ytb:hover {
-    color: rgb(255, 1, 77);
-    margin-top: 1pc;
-    margin-left: -3.4pc;
-}
+.container .link .a .kotak .tautan .ytb:hover {}
 
 .container .link .a .kotak .tautan .dc:hover {
     color: rgb(0, 204, 255);
