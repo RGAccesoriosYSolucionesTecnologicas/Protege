@@ -18,13 +18,16 @@
     }
     
     .container .title {
-        margin: auto;
+        margin: 10vh auto 0 auto;
         text-align: center;
         display: grid;
     }
     
     .container .title img {
-        width: 100%;
+        width: 30vw;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
     
     a {
