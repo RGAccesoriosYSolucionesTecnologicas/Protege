@@ -66,6 +66,9 @@ footer {
         width: 80vw;
         margin: 0 auto;
     }
+    .container .link .a:hover {
+        background: #f5f5f5;
+    }
     .container .link .a .kotak {
         border: 2px solid rgb(24, 24, 24);
         background: rgb(24, 24, 24);
@@ -75,12 +78,10 @@ footer {
         display: grid;
         margin: 1vw auto 0 auto;
     }
-    .container .kotak .img .imgwa {
+    .container .link .a .kotak .img .imgwa {
         width: 19vw;
-        height: 15vw;
-    }
-    .container .kotak .tautan {
-        margin: 0 auto;
+        height: 14vw;
+        position: relative;
     }
     .container .kotak:hover {
         border: 2px solid rgb(255, 255, 255);
@@ -100,7 +101,9 @@ footer {
         font-weight: bolder;
         transition: 0.5s;
     }
-    .container .kotak .tautan p {}
+    .container .kotak .tautan p {
+        margin-bottom: 1vh;
+    }
     .container .kotak .tautan:hover {
         letter-spacing: 15px;
         transition: 0.5s;
