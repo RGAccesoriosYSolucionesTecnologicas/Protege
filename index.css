@@ -32,47 +32,54 @@ footer {
         display: grid;
         text-align: center;
     }
-    .container .link .kotak {
+    .container .title {
+        margin: 8vh auto 0 auto;
+        text-align: center;
+        display: grid;
+        max-height: 10vw;
+    }
+    .container .title h1 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .container .title h3 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .container .link {
+        text-align: center;
+        width: 100vw;
+        height: 70vh;
+    }
+    .container .link .a {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .container .link .a .kotak {
         border: 2px solid rgb(24, 24, 24);
         background: rgb(24, 24, 24);
         width: 80vw;
         box-shadow: 5px 5px rgb(46, 46, 46);
         transition: 0.5s;
         display: grid;
-        margin: 1pc auto;
+        margin: 1vw auto 0 auto;
     }
     .container .kotak .img .imgwa {
         width: 19vw;
         height: 15vw;
     }
-    .container .link {
-        margin: 0 auto;
-        text-align: center;
-        width: 100vw;
-    }
-    .container .link .a {
-        width: 80vw;
-        margin: 0 auto;
-    }
     .container .kotak .tautan {
         margin: 0 auto;
-    }
-    .container .title {
-        margin: 8vh auto 0 auto;
-        text-align: center;
-        display: grid;
     }
     .container .title img {
         width: 25vw;
         position: absolute;
         top: 0;
         left: 0;
-    }
-    .container .title h1 {
-        text-align: center;
-        color: white;
-        text-transform: uppercase;
-        font-size: 2.5rem;
     }
     .container .link .a {
         margin: 0 auto;
@@ -113,6 +120,11 @@ footer {
 }
 
 @media screen and (max-width:1000px) {
+    .container {
+        min-height: 100vh;
+        display: grid;
+        text-align: center;
+    }
     .container .kotak .img .imgwa {
         width: 11vw;
         height: 8vw;
