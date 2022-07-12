@@ -2,6 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
+    background: url('img/6240268.jpg') no-repeat;
 }
 
 * {
@@ -27,10 +28,9 @@ footer {
 
 @media only screen and (max-width:680px) {
     .container {
-        height: 95vh;
+        height: 100vh;
         display: grid;
         text-align: center;
-        background: url('img/6240268.jpg') no-repeat;
     }
     .container .title {
         margin: 8vh auto 0 auto;
@@ -60,7 +60,7 @@ footer {
     .container .link {
         text-align: center;
         width: 100vw;
-        height: 50vh;
+        height: 55vh;
     }
     .container .link .a {
         width: 80vw;
