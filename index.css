@@ -64,7 +64,7 @@ footer {
     }
     .container .link .a {
         width: 80vw;
-        margin: 0 auto;
+        margin: 0 auto 2vh auto;
     }
     .container .link .a:hover {
         background: #f5f5f5;
