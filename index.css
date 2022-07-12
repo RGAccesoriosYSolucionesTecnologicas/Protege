@@ -28,7 +28,7 @@ footer {
 
 @media only screen and (max-width:600px) {
     .container {
-        min-height: 100vh;
+        min-height: 90vh;
         display: grid;
         text-align: center;
     }
