@@ -26,7 +26,7 @@ footer {
     bottom: 0;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:680px) {
     .container {
         height: 100vh;
         display: grid;
@@ -82,10 +82,6 @@ footer {
     .container .kotak .tautan {
         margin: 0 auto;
     }
-    .container .link .a {
-        margin: 0 auto;
-        text-align: center;
-    }
     .container .kotak:hover {
         border: 2px solid rgb(255, 255, 255);
         background: rgb(255, 255, 255);
@@ -120,51 +116,60 @@ footer {
     }
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:680px) {
     .container {
         min-height: 100vh;
         display: grid;
         text-align: center;
-    }
-    .container .kotak .img .imgwa {
-        width: 11vw;
-        height: 8vw;
-    }
-    .container .title img {
-        width: 15vw;
-        height: 15vw;
-        position: absolute;
-        top: 0;
-        left: 15vw;
     }
     .container .title {
         text-align: center;
         color: white;
         text-transform: uppercase;
         font-size: 2rem;
+        height: 10vh;
+    }
+    .container .title img {
+        width: 10vw;
+        height: 10vw;
+        position: absolute;
+        top: 0;
+        left: 15vw;
+    }
+    .container .title h3 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.5rem;
     }
     .container .link {
         margin: 2vw auto;
         text-align: center;
+        width: 100vw;
     }
     .container .link .a {
         margin: 0 auto;
         text-align: center;
-        width: 80vw;
+        width: 70vw;
         height: auto;
+    }
+    .container .kotak .img .imgwa {
+        width: 6vw;
+        height: 5vw;
     }
     .container .kotak {
         border: 2px solid rgb(24, 24, 24);
         background: rgb(24, 24, 24);
-        width: 50vw;
+        width: 70vw;
+        height: 10vh;
         box-shadow: 5px 5px rgb(46, 46, 46);
         transition: 0.5s;
-        display: grid;
+        display: inline-block;
         margin: 1vw auto;
     }
     .container .kotak img {
-        width: 5vw;
-        height: 5vw;
+        width: 3vw;
+        display: inline;
     }
     .container .kotak:hover {
         border: 2px solid rgb(255, 255, 255);
@@ -194,5 +199,4 @@ footer {
     .container .link .a .kotak .tautan .ig:hover {
         color: red;
     }
-    .container .link
 }
