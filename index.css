@@ -1,84 +1,94 @@
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: url('img/6240268.jpg') repeat
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container .kotak img {
+    width: 10vw;
+    height: 10vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+}
+
+@media only screen and (max-width:600px) {
+    .container .kotak .img .imgwa {
+        width: 19vw;
+        height: 15vw;
     }
-    
-    body {
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        background: url('img/6240268.jpg') repeat
+    .container .link .a {
+        width: 100vw;
     }
-    
+    .container .kotak {
+        width: 80vw;
+    }
+    .container .kotak .tautan {
+        margin: 0 auto;
+    }
     .container {
         min-height: 90vh;
         display: grid;
         text-align: center;
     }
-    
     .container .title {
-        margin: 10vh auto 0 auto;
+        margin: 8vh auto 0 auto;
         text-align: center;
         display: grid;
     }
-    
     .container .title img {
-        width: 30vw;
+        width: 25vw;
         position: absolute;
         top: 0;
         left: 0;
     }
-    
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    
     .container .title h1 {
         text-align: center;
         color: white;
         text-transform: uppercase;
         font-size: 2.5rem;
     }
-    
     .container .link {
         margin: 0 auto;
         text-align: center;
     }
-    
     .container .link .a {
         margin: 0 auto;
         text-align: center;
     }
-    
     .container .kotak {
         border: 2px solid rgb(24, 24, 24);
         background: rgb(24, 24, 24);
-        width: 40pc;
+        width: 90vw;
         box-shadow: 5px 5px rgb(46, 46, 46);
         transition: 0.5s;
         display: grid;
         margin: 1pc auto;
     }
-    
     .container .kotak:hover {
         border: 2px solid rgb(255, 255, 255);
         background: rgb(255, 255, 255);
         box-shadow: 10px 10px rgb(87, 87, 87);
         color: black;
     }
-    
-    .container .kotak .img {
-        transition: 0.3s;
-        float: left;
-    }
-    
     .container .kotak .img:hover {
         transform: rotate(40deg);
         transition: 0.5s;
     }
-    
     .container .kotak .tautan {
         text-align: center;
         font-size: 1rem;
@@ -88,43 +98,91 @@
         transition: 0.5s;
         display: inline-block;
     }
-    
     .container .kotak .tautan p {}
-    
     .container .kotak .tautan:hover {
         letter-spacing: 15px;
         transition: 0.5s;
     }
-    
     .container .link .a .kotak .tautan .ig:hover {
         color: red;
     }
-    
     .container .link .a .kotak .tautan .sama:hover {
         color: rgb(0, 99, 228);
     }
-    
     .container .link .a .kotak .tautan .wa:hover {
         color: green;
     }
-    
     .container .link .a .kotak .tautan .ytb:hover {}
-    
-    @media only screen and (max-width:600px) {
-        img {
-            width: 10vw;
-        }
-        .container .link .a {
-            width: 100vw;
-        }
-        .container .kotak {
-            width: 80vw;
-        }
-        .container .kotak .tautan {
-            margin: 0 auto;
-        }
-        footer {
-            text-align: center;
-            bottom: 0;
-        }
+}
+
+@media screen and (max-width:1000px) {
+    .container .kotak .img .imgwa {
+        width: 11vw;
+        height: 8vw;
     }
+    .container .title img {
+        width: 15vw;
+        height: 15vw;
+        position: absolute;
+        top: 0;
+        left: 15vw;
+    }
+    .container .title {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .container .link {
+        margin: 2vw auto;
+        text-align: center;
+    }
+    .container .link .a {
+        margin: 0 auto;
+        text-align: center;
+        width: 80vw;
+        height: auto;
+    }
+    .container .kotak {
+        border: 2px solid rgb(24, 24, 24);
+        background: rgb(24, 24, 24);
+        width: 50vw;
+        box-shadow: 5px 5px rgb(46, 46, 46);
+        transition: 0.5s;
+        display: grid;
+        margin: 1vw auto;
+    }
+    .container .kotak img {
+        width: 5vw;
+        height: 5vw;
+    }
+    .container .kotak:hover {
+        border: 2px solid rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+        box-shadow: 10px 10px rgb(87, 87, 87);
+        color: black;
+    }
+    .container .kotak .img:hover {
+        transform: rotate(40deg);
+        transition: 0.5s;
+    }
+    .container .kotak .tautan {
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        transition: 0.5s;
+        display: inline-block;
+    }
+    .container .kotak .tautan p {
+        font-size: 1.5rem;
+    }
+    .container .kotak .tautan:hover {
+        letter-spacing: 15px;
+        transition: 0.5s;
+    }
+    .container .link .a .kotak .tautan .ig:hover {
+        color: red;
+    }
+    .container .link
+}
