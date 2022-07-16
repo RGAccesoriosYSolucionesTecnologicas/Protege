@@ -125,7 +125,7 @@ footer {
 
 @media only screen and (max-width:680px) {
     .container {
-        height: 100vh;
+        min-height: 80vh;
         display: grid;
         text-align: center;
     }
@@ -183,10 +183,12 @@ footer {
         box-shadow: 10px 10px rgb(87, 87, 87);
         color: black;
     }
+    .container .link .a .kotak .img {
+        margin: auto auto;
+    }
     .container .link .a .kotak .img img {
         width: 10vw;
         height: 10vw;
-        margin: 1vh auto;
     }
     .container .kotak .img:hover {
         transform: rotate(40deg);
@@ -194,11 +196,10 @@ footer {
     }
     .container .kotak .tautan {
         transition: 0.2s;
-        margin: 0 auto;
-        text-align: center;
+        margin: auto auto;
     }
     .container .kotak .tautan p {
-        margin: 0 auto;
+        margin: auto auto;
         font-size: 1.0rem;
     }
     .container .kotak .tautan:hover {
