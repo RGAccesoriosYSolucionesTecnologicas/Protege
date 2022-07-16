@@ -144,19 +144,16 @@ footer {
     .container .title h1 {
         text-align: center;
         color: white;
-        text-transform: uppercase;
         font-size: 2rem;
     }
     .container .title h3 {
         text-align: center;
         color: white;
-        text-transform: uppercase;
         font-size: 1rem;
     }
     .container .link {
         text-align: center;
         width: 100vw;
-        height: 55vh;
     }
     .container .link .a {
         width: 80vw;
