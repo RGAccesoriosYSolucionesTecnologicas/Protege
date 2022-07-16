@@ -125,7 +125,7 @@ footer {
 
 @media only screen and (max-width:680px) {
     .container {
-        min-height: 80vh;
+        min-height: 95vh;
         display: grid;
         text-align: center;
     }
@@ -133,7 +133,6 @@ footer {
         margin: 8vh auto 0 auto;
         text-align: center;
         display: grid;
-        max-height: 10vw;
     }
     .container .title img {
         width: 30vw;
