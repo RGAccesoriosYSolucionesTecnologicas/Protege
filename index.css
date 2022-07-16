@@ -130,8 +130,7 @@ footer {
         text-align: center;
     }
     .container .title {
-        margin: 8vh auto 0 auto;
-        text-align: center;
+        margin: 5vh auto 0 auto;
         display: grid;
     }
     .container .title img {
@@ -142,18 +141,12 @@ footer {
         left: 0;
     }
     .container .title h1 {
-        text-align: center;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .container .title h3 {
-        text-align: center;
         color: white;
         font-size: 1rem;
-    }
-    .container .link {
-        text-align: center;
-        width: 100vw;
     }
     .container .link .a {
         width: 80vw;
